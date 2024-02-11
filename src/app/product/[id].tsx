@@ -1,23 +1,29 @@
 import { Button } from "@/components/button";
 import { PRODUCTS } from "@/utils/data/products";
 import { formatCurrency } from "@/utils/functions/format-currency";
-import { useLocalSearchParams, useNavigation } from "expo-router";
+import { Redirect, useLocalSearchParams, useNavigation } from "expo-router";
 import { Image, View, Text } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import { LinkButton } from "@/components/link-button";
 import { useCartStore } from "@/stores/cart-store";
 
-// rota dinâmica igual como acontece no NextJS
+// [id].tsx -> arquivo de rota dinâmica igual como acontece no NextJS
 export default function Product() {
   const { id } = useLocalSearchParams();
   const cartStore = useCartStore();
   const navigation = useNavigation();
 
-  const product = PRODUCTS.filter((item) => item.id === id)[0];
+  const product = PRODUCTS.find((item) => item.id === id);
 
   function handleAddToCart() {
-    cartStore.add(product);
-    navigation.goBack();
+    if (product) {
+      cartStore.add(product);
+      navigation.goBack();
+    }   
+  }
+
+  if (!product) {
+    return <Redirect href="/"  /> 
   }
   
   return (

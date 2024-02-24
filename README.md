@@ -25,7 +25,7 @@
 
 ## :dart: About ##
 
-This project was developed on the 14th edition of Rocketseat's famous event called Next Level Week. In this front-end trail, a restaurant menu mobile app was built.
+This project was developed on the 14th edition of Rocketseat's famous event called Next Level Week. On this front-end trail, a restaurant menu mobile app was built.
 
 ## :sparkles: Features ##
 

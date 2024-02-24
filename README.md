@@ -2,7 +2,7 @@
   <img src="./.github/logo-expert.webp" alt="Rocketseat NLW Expert" />
 </div>
 
-<h1 align="center">Rocketseat NLW Expert</h1>
+<h1 align="center">Rocketseat NLW Expert – React Native</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/oliveiralecca/rocketseat-nlw-expert-react-native?color=56BEB8">
@@ -25,7 +25,7 @@
 
 ## :dart: About ##
 
-This project was developed on the 14th edition of Rocketseat's famous event called Next Level Week. On this edition, a restaurant menu mobile app was built.
+This project was developed on the 14th edition of Rocketseat's famous event called Next Level Week. In this front-end trail, a restaurant menu mobile app was built.
 
 ## :sparkles: Features ##
 
@@ -53,6 +53,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 ## :checkered_flag: Starting ##
 
 ```bash
+# Clone this project
+$ git clone https://github.com/oliveiralecca/rocketseat-nlw-expert-react-native
+
 # Access
 $ cd rocketseat-nlw-expert-react-native
 

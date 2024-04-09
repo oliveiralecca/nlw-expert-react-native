@@ -40,7 +40,6 @@ This project was developed on the 14th edition of Rocketseat's famous event call
 The following tools were used in this project:
 
 - [Expo](https://expo.io/)
-- [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
